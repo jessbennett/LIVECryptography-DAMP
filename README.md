@@ -3,4 +3,4 @@
 "Powered by PolygonScan"
 "Data provided by PolygonScan"
 "Source: PolygonScan"
-https://polygonscan.com/brandassets
+(https://polygonscan.com/brandassets)
