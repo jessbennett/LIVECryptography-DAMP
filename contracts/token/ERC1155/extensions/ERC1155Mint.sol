@@ -7,7 +7,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 
-/// @custom:security-contact Jessbennett924@gmail.com
+/// @custom:security-contact: 0x2D29Cd55f129fCfD290B240F51D4930A74096C5B
+
 contract MyTokenMint is ERC20, Ownable, ERC20Permit, ERC20FlashMint {
     constructor(address initialOwner)
         ERC20("MyToken-Mint", "MTK")
